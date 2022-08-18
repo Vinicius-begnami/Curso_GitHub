@@ -9,3 +9,7 @@ install.packages("FactoMineR")
 6+6
 7+7
 8+8
+usethis::use_readme_md()
+library(workflowr)
+wflow_start(directory = ".", name="Codigo_GitHub_LAPEA", git=F, existing = T)
+wflow_open("analysis/*.Rmd")

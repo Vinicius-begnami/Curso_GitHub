@@ -1,0 +1,19 @@
+name: "Codigo_GitHub_LAPEA"
+output_dir: ../docs
+navbar:
+  title: "Codigo_GitHub_LAPEA"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: PCA
+    href: PCA.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
