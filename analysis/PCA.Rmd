@@ -57,3 +57,7 @@ fviz_pca_ind(pca,
 
 How is everything?
 
+```{r}
+wflow_build()
+wflow_publish(files="analysis/*.Rdm", message="MeuprimeiroSite")
+```
